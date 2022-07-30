@@ -16,7 +16,7 @@ public class Demo {
         al.add("ramraj");
 
         al.stream().filter(s -> !s.equalsIgnoreCase("santosh")).forEach(s -> System.out.println(s));
-
+        // this is for java8 practise
 
     }
 }
